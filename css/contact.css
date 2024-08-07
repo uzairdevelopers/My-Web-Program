@@ -1,0 +1,265 @@
+/* CSS Rest */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Body */
+body {
+  background-color: #ebebeb;
+}
+
+/* Navigation */
+.navbar {
+  padding: 4px;
+  display: flex;
+  border-bottom: 1px solid gray;
+  background-color: white;
+}
+
+header::before {
+  content: "";
+  background-image: url(../img/wallpaperflare.jpg);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 90%;
+  z-index: -1;
+  opacity: 0.89;
+}
+
+/* Navigation - Logo */
+.logo {
+  margin-left: 55px;
+  padding: 3px 20px;
+  width: 212px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo img {
+  height: 36px;
+}
+
+.logo div h3 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0px 4px;
+}
+
+/* Navigation - Menu List */
+.navbar {
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+
+.menu {
+  margin: auto;
+  padding: 3px 20px;
+  width: 730px;
+  display: block;
+}
+
+.menu ul {
+  display: flex;
+  list-style: none;
+  font-size: 1.3rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.menu ul li a {
+  color: black;
+  text-decoration: none;
+  padding: 3px 30px;
+  margin: 0px 3px;
+}
+
+.menu ul li a:hover {
+  color: #231ca9;
+  text-decoration: underline;
+}
+
+.menu ul li a.active {
+  color: #231ca9;
+  text-decoration: underline;
+}
+
+/* Navigation - Button */
+.button-1 {
+  display: flex;
+  padding: 3px 25px;
+  width: 250px;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  color: white;
+  margin-right: 99px;
+  background-color: #231ca9;
+  width: 142px;
+  border: 2px solid #231ca9;
+  border-radius: 28px;
+  font-size: 1.3rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  height: 37px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: black;
+  background-color: white;
+  border: 2px solid black;
+}
+
+/* Section */
+.home {
+  margin: 90px 80px;
+  height: 320px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Section - Home */
+.home h1 {
+  font-size: 4rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.home p {
+  margin: 6px 70px;
+  font-size: 1.1rem;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#h-button {
+  margin-top: 20px;
+  width: 180px;
+  height: 45px;
+}
+
+/* Contact Section */
+#contact {
+  position: relative;
+}
+
+.h-primary {
+  text-align: center;
+  font-size: 2.3rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contact-box {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 34px;
+}
+
+.contact-box textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 9px;
+  font-size: 1rem;
+}
+
+.contact-box form {
+  width: 40%;
+}
+
+.contact-box form {
+  font-size: 1.1rem;
+}
+
+input {
+  margin-bottom: 18px;
+  border: 1px solid black;
+  width: 552px;
+  height: 35px;
+  border-radius: 21px;
+}
+
+/* Section About */
+.about-item {
+  margin: 80px 130px;
+  padding: 21px 70px;
+  background-color: white;
+  border: 2px solid grey;
+  border-radius: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-item img {
+  height: 150px;
+}
+
+.about-item h1 {
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.about-item p {
+  text-align: center;
+  font-size: 1rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Footer */
+.footer {
+  display: flex;
+}
+
+.footer-group {
+  display: flex;
+  border-top: 1px solid grey;
+  background-color: white;
+}
+
+.box-1 {
+  padding: 15px 12px;
+  width: 650px;
+}
+
+.box-1 p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.box-2 {
+  padding: 15px 12px;
+  width: 691px;
+}
+
+.box-2 ul {
+  display: flex;
+  list-style: none;
+  font-size: 1.3rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.box-2 ul li a {
+  text-decoration: none;
+  color: black;
+  margin: 3px 43px;
+  padding: 3px 8px;
+}
+
+.box-2 ul li a:hover {
+  text-decoration: underline;
+  color: #231ca9;
+}
+
+.box-2 ul li a.active {
+  color: #231ca9;
+  text-decoration: underline;
+}
